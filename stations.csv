@@ -1,0 +1,6 @@
+station_id,station_name,state,lat,lon,type
+CHERAS,Cheras,WP Kuala Lumpur,3.106,101.718,urban
+BATU_MUDA,Batu Muda,WP Kuala Lumpur,3.213,101.682,urban
+PETALING_JAYA,Petaling Jaya,Selangor,3.133,101.608,urban
+SHAH_ALAM,Shah Alam,Selangor,3.105,101.556,suburban
+BANTING,Banting,Selangor,2.817,101.623,suburban
