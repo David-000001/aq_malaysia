@@ -282,6 +282,7 @@ def fig_break():
     mon = w.resample("MS").median().median(axis=1)
     n = w.resample("MS").count().max(axis=1)
     mon[n < 10] = np.nan
+    F.mkdir(parents=True, exist_ok=True)
     fig, ax = plt.subplots(figsize=(3.4, 2.0))
     ax.plot(mon.index, mon.values, "k.-", lw=1, ms=3)
     ax.axvline(pd.Timestamp("2018-08-16"), color="tab:red", lw=0.9, ls="--")
